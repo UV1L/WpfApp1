@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Windows.Automation;
-using WpfApp1.finder;
+using ScreanReader.finder;
 
-namespace WpfApp1
+namespace ScreanReader
 {
     interface WindowElementFinder
     {

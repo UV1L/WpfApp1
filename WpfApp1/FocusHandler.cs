@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Automation;
-using WpfApp1.finder;
-using WpfApp1.finder.automation;
+using ScreanReader.finder;
+using ScreanReader.finder.automation;
 using Automation = System.Windows.Automation;
 
-namespace WpfApp1
+namespace ScreanReader
 {
     class FocusHandler : ISubscriber
     {

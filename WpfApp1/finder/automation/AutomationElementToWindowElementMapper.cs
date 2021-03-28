@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Automation;
 
-namespace WpfApp1.finder.automation
+namespace ScreanReader.finder.automation
 {
     class AutomationElementToWindowElementMapper
     {

@@ -4,7 +4,7 @@ using System.Text;
 using System.Windows.Automation;
 using Automation = System.Windows.Automation;
 
-namespace WpfApp1
+namespace ScreanReader
 {
     interface ISubscriber
     {

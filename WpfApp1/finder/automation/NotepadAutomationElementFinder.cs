@@ -2,7 +2,7 @@
 using System.Windows.Automation;
 using System.Linq;
 
-namespace WpfApp1.finder.automation
+namespace ScreanReader.finder.automation
 {
     class NotepadAutomationElementFinder : WindowElementFinder
     {

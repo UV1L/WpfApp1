@@ -16,9 +16,9 @@ using System.Windows.Automation;
 using Automation = System.Windows.Automation;
 using System.ComponentModel;
 using System.Threading;
-using WpfApp1.finder.automation;
+using ScreanReader.finder.automation;
 
-namespace WpfApp1
+namespace ScreanReader
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

@@ -8,7 +8,7 @@ using System.Speech.Synthesis;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace WpfApp1
+namespace ScreanReader
 {
     class Speaker : INotifyPropertyChanged
     {
