@@ -15,7 +15,7 @@ namespace ScreanReader
     {
         private WindowElementFinder finder;
         private Speaker speaker;
-        public Logic(NotepadAutomationElementFinder finder, Speaker speaker)
+        public Logic(WindowElementFinder finder, Speaker speaker)
         {
             this.finder = finder;
             this.speaker = speaker;
