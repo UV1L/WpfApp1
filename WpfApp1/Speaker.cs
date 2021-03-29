@@ -7,12 +7,12 @@ using System.Linq;
 using System.Speech.Synthesis;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Threading;
 
 namespace ScreanReader
 {
     class Speaker : INotifyPropertyChanged
     {
-
         private SpeechSynthesizer synthesizer = new SpeechSynthesizer();
 
         public event PropertyChangedEventHandler PropertyChanged;

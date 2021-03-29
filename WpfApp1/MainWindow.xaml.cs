@@ -28,10 +28,12 @@ namespace ScreanReader
         public string TextToShow { get; set; }
         private bool isStartedFlag = false;
         private AutomationElement RootElement { get; set; }
+
         public MainWindow()
         {
             InitializeComponent();
             RootElement = AutomationElement.RootElement;
+            ToScrollAsync();
         }
 
         public void RunApp(object sender, RoutedEventArgs e)
@@ -47,6 +49,16 @@ namespace ScreanReader
                     MessageBox.Show("Экранный диктор включен!");
                 }
             }
+        }
+
+        async void ToScrollAsync()
+        {
+            await Task.Run(() => ToScroll());
+        }
+
+        private void ToScroll()
+        {
+            scrollViewer.ScrollToBottom();
         }
     }
 }

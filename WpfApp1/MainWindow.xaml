@@ -16,7 +16,7 @@
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" Background="White" DataContext="{StaticResource speaker}">
             <ScrollViewer x:Name="scrollViewer">
-                <TextBlock x:Name="textBlock" Margin="10 0 0 10" Height="Auto" Text="{Binding Text}" TextWrapping="Wrap" VerticalAlignment="Center" />
+                <TextBlock x:Name="textBlock" Margin="10 0 0 10" Height="Auto" Text="{Binding Text}" TextWrapping="Wrap" VerticalAlignment="Top" />
             </ScrollViewer>
         </Grid>
         <Button Content="Запустить экранный диктор" HorizontalAlignment="Left" Height="42" Margin="10,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="250" Click="RunApp" Cursor="Hand"/>
